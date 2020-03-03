@@ -1,0 +1,49 @@
+h1{
+    font-weight: bold;
+}
+
+a .img-logo{
+    width: 50px;
+    height: 25px;
+}
+
+.img-buled{
+    width: 200px;
+    height: auto;
+}
+
+.img-pie {
+    max-width: 10em;
+    height: auto;
+}
+
+.img-bar {
+    max-width: 20em;
+    height: auto;
+}
+
+#home{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#portfolio {
+    color: white;
+}
+
+#portfolio a{
+    color: white;
+}
+
+.link-github {
+    color: #212529;
+}
+
+.link-github:hover {
+    color: #212529;
+}
+
+.skill{
+    margin-top: 40px;
+    margin-bottom: auto;
+}
