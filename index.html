@@ -8,6 +8,9 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
 </head>
 
@@ -80,23 +83,43 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h3 class="mt-5">Website</h3>
-          <p>Website ever made</p>
-          <p>visit at <a href="http://gedebage.bandung.go.id">http://gedebage.bandung.go.id</a></p>
-        </div>
-        <div class="col-md-4">
-          <h3 class="mt-5">SI-IKM</h3>
-          <p>It is an Information System for taking surveys of IKM (Indeks Kepuasan Masyarakat) based on PERMENPANRB
-            No.14 Tahun 2017, made using Codeigniter Framework, Bootstrap, CSS, Javascript.
-          </p>
-          <p>visit at <a href="http://gedebage-gov.gedebage.bandung.go.id/welcome/get_all_setting">here</a></p>
-        </div>
-        <div class="col-md-4">
-          <h3 class="mt-5">SI-Pelayanan</h3>
-          <p>An information system about service administration in the Gedebage Government, made using Codeigniter,
-            Bootstrap, CSS, Javascript Framework</p>
-          <p>visit at <a href="http://gedebage-gov.gedebage.bandung.go.id/welcome/get_all_setting">here</a></p>
+        <div class="owl-carousel">
+          <div class="item">
+            <h3 class="mt-5">Website</h3>
+            <p>Website ever made</p>
+            <p>visit at <a href="http://gedebage.bandung.go.id">http://gedebage.bandung.go.id</a></p>
+          </div>
+          <div class="item">
+            <h3 class="mt-5">SI-IKM</h3>
+            <p>It is an Information System for taking surveys of IKM (Indeks Kepuasan Masyarakat) based on PERMENPANRB
+              No.14 Tahun 2017, made using Codeigniter Framework, Bootstrap, CSS, Javascript.
+            </p>
+            <p>visit at <a href="http://gedebage-gov.gedebage.bandung.go.id/welcome/get_all_setting">here</a></p>
+          </div>
+          <div class="item">
+            <h3 class="mt-5">SI-Administrator</h3>
+            <p>An information system about service administration in the Gedebage Government, made using Codeigniter,
+              Bootstrap, CSS, Javascript Framework</p>
+            <p>visit at <a href="http://gedebage-gov.gedebage.bandung.go.id/welcome/get_all_setting">here</a></p>
+          </div>
+          <div class="item">
+            <h3 class="mt-5">SI-Monorel</h3>
+            <p>Information system about budget monitoring and realization in the Gedebage Government, created using
+              Codeigniter framework, Bootstrap, CSS, Javascript</p>
+            <p>visit at <a href="http://si-monorel.gedebage.bandung.go.id/">here</a></p>
+          </div>
+          <div class="item">
+            <h3 class="mt-5">SI-Monorel</h3>
+            <p>Information system about budget monitoring and realization in the Gedebage Government, created using
+              Codeigniter framework, Bootstrap, CSS, Javascript</p>
+            <p>visit at <a href="http://si-monorel.gedebage.bandung.go.id/">here</a></p>
+          </div>
+          <div class="item">
+            <h3 class="mt-5">SI-Mail</h3>
+            <p>Information system about mail administration in Gedebage Government, created using Codeigniter framework,
+              Bootstrap, CSS, Javascript</p>
+            <p>
+          </div>
         </div>
       </div>
     </div>
@@ -142,6 +165,27 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+  <script src="assets/js/owl.carousel.js"></script>
+
+  <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      margin: 10,
+      loop: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>
